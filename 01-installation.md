@@ -58,17 +58,57 @@ The subwindows are:
     2. Help -- any help items will show up here
     3. Plots -- if your code is drwaing any plots/pictures, they will show here
     4. Files -- file explorer
-3. Interactive python window -- in case you want to use python directly without writing a script file
-.
+3. Interactive python window -- in case you want to use python directly without writing a script file.
 
-    **Task**
+---
 
-    In the left `Spyder` window clear everything, and add this line:
+**Task**
 
-    ```python
-    print("Hello Spyder!!!")
-    ```
+In the left `Spyder` window clear everything, and add this line:
 
-    Run the program by pressing the green triangle on the top.
+```python
+print("Hello Spyder!!!")
+```
+
+Run the program by pressing the green triangle on the top.
+Your result should look like something shown below
+
+![](imgs/01-installation/spyder-task-output.png)
+
+---
+
+## Anaconda Navigator -- Jupyter Notebook
+
+__"Jupyter Notebook"__ is another application that is very popular with python enthusiasts.
+It is often used to separate the python scripts into "cells" with each cell being executed separately.
+
+From the home menu select the __"Notebook"__ launch button, which opens the browser window showing your home directory.
+
+![](imgs/01-installation/jupyter-open.png)
+
+1. On the top right hand side, there is a dropdown menu labeled "New".
+Create a new Notebook with the Python 3.
+2. On the top left side of the notebook you will see the notebook's name "Untitled".
+  Click on it to rename.
+3. In the first line of the notebook, type `print("Hello Jupyter!!!")`
+4. Save your notebook by either clicking on the save icon or by selecting File->Save As, and giving the notebook a name.
+5. Run your notebook by selecting Cell->Run All from the drop-down menus.
+  ![](imgs/01-installation/jupyter-hello-world.png)
+
+---
+
+**Task**
+
+1. In the same notebook, create a new cell by pressing "Shift + Enter" on the first cell.
+2. Add the following code to the newly created cell
+  ```python
+  print("If you add two and two the result will be", 2 + 2)
+  ```
+3. Run the notebook
 
 
+![](imgs/01-installation/jupyter-task-output.png)
+
+---
+
+_Close the jupyter notebook and the navigator to conclude this section_
