@@ -54,8 +54,21 @@ The subwindows are:
 1. Main editor window -- you can write all your files here.
   That way you can utilize the tooltips provided by the Kite
 2. The support window which has multiple options
-  1. Variable explorer -- shows the variables that were defined in your code
-  2. Help -- any help items will show up here
-  3. Plots -- if your code is drwaing any plots/pictures, they will show here
-  4. Files -- file explorer
+    1. Variable explorer -- shows the variables that were defined in your code
+    2. Help -- any help items will show up here
+    3. Plots -- if your code is drwaing any plots/pictures, they will show here
+    4. Files -- file explorer
 3. Interactive python window -- in case you want to use python directly without writing a script file
+.
+
+    **Task**
+
+    In the left `Spyder` window clear everything, and add this line:
+
+    ```python
+    print("Hello Spyder!!!")
+    ```
+
+    Run the program by pressing the green triangle on the top.
+
+
